@@ -87,7 +87,7 @@ func (alerts *AlertStatusInternal) testValidationRule (a *ArgsMap) error {
 //***********************************
 
 func (alerts *AlertStatusInternal) overTempRule (a *ArgsMap) error {
-    const temperatureThreshold  float64 = 0 // (inclusive good value)
+    const temperatureThreshold  float64 = 5 // (inclusive good value)
 
     tbytes, found := getObject(*a, "temperature")
     if found {
