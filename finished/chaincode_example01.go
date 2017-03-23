@@ -95,8 +95,8 @@ func (t *SimpleChaincode) Invoke(stub shim.ChaincodeStubInterface) pb.Response {
 
 	return shim.Error("Invalid invoke function name. Expecting \"invoke\"")
 }
-func lssTest() pb.Response {
-	return shim.Success("lssTest")
+func lssTest() string {
+	return "{hello}"
 }
 
 func main() {
