@@ -88,7 +88,7 @@ func (t *SimpleChaincode) Query(stub shim.ChaincodeStubInterface, function strin
 	return nil, nil
 }
 func lssTest(){
-	return 'test sayantan'
+	fmt.Printf("lss sayantan")
 }
 
 func main() {
