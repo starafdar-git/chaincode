@@ -87,9 +87,6 @@ func (t *SimpleChaincode) Invoke(stub shim.ChaincodeStubInterface, function stri
 func (t *SimpleChaincode) Query(stub shim.ChaincodeStubInterface, function string, args []string) ([]byte, error) {
 	return nil, nil
 }
-func lssTest(){
-	fmt.Printf("lss sayantan")
-}
 
 func main() {
 	err := shim.Start(new(SimpleChaincode))
