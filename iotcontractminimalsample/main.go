@@ -20,7 +20,7 @@ package main
 
 import (
 	"github.com/hyperledger/fabric/core/chaincode/shim"
-	iot "github.com/bluemix-git/chaincode/iotcontractplatform"
+	iot "github.com/ibm-watson-iot/blockchain-samples/contracts/platform/iotcontractplatform"
 )
 
 // Update the path to match your configuration
